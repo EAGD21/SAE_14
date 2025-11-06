@@ -3,7 +3,7 @@
 }
 
 #span2 {
-    color: brown;
+    color: red;
 }
 
 * {
@@ -16,48 +16,6 @@
   --primary-color: #3f65f0; 
   --secondary-color: #ffffff; 
   --loader-color: rgb(9, 2, 32);
-}
-
-/* Le loader */
-#loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: var(--loader-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  opacity: 1;
-  visibility: visible;
-  animation: fadeOut 3s forwards; 
-  animation-delay: 5s; /* temporisation avant disparition */
-
-}
-
-#loader h1 {
-  color: var(--secondary-color);
-  font-size: 2rem;
-}
-
-#loader h1 span {
-  display: inline-block; /* nécessaire pour l'animation des points (permet l'utilisation de translateY() */ 
-  animation: bounce 2s infinite;
-}
-
-/* Délai pour l'animation de chaque point */
-#loader h1 span:nth-child(1) {
-  animation-delay: 0s;
-}
-
-#loader h1 span:nth-child(2) {
-  animation-delay: 0.2s;
-}
-
-#loader h1 span:nth-child(3) {
-  animation-delay: 0.4s;
 }
 
 header {
@@ -116,6 +74,10 @@ nav button:hover {
   padding: 80px 80px;
 }
 .text h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   font-size: 50px;
 }
 .text span,
@@ -136,6 +98,8 @@ nav button:hover {
   border-radius: 30px;
   font-size: 18px;
   transition: 0.5s;
+  justify-content: center;
+  align-items: center;
 }
 .btn:hover {
   letter-spacing: 5px;
