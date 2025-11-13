@@ -91,12 +91,12 @@ nav button:hover {
 .btn {
   background: var(--primary-color);
   color: var(--secondary-color);
-  padding: 15px 30px;
+  padding: 30px 45px;
   display: flex;
-  margin-top: 30px;
+  margin-top: 45px;
   border: none;
   border-radius: 30px;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.5s;
   justify-content: center;
   align-items: center;
@@ -104,27 +104,90 @@ nav button:hover {
 .btn:hover {
   letter-spacing: 5px;
 }
-.quarter-circle {
+.border-blue0 {
   position: fixed;
   background: var(--primary-color);
   bottom: 0;
   right: 0;
-  width: 600px;
-  height: 600px;
-  border-top-left-radius: 100%;
+  width: 5%;
+  height: 100%;
 }
-.quarter-circle-img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.border-blue1 {
+  position: fixed;
+  background: var(--primary-color);
+  bottom: 0px;
+  width: 5%;
+  height: 100%;
 }
-.quarter-circle-img img {
-  width: 90%;
-  cursor: pointer;
-  transition: 0.5s;
+
+#arc1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.quarter-circle-img img:hover {
-  transform: scale(0.75);
+
+#img1 {
+  height: 300px;
+}
+
+#arc2 {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#img2 {
+  height: 300px;
+}
+
+#arc3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#img3 {
+  height: 300px;
+}
+
+#arc4 {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#img4 {
+  height: 300px;
+}
+
+#ar5 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#img5 {
+  height: 300px;
+}
+
+#arc6 {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#img6 {
+  height: 300px;
+}
+
+#arc7 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#img7 {
+  height: 300px;
 }
 /* ---------------------------------------------------------------------- ANIMATIONS ---------------------------------------------------------------------------------------------/*
 

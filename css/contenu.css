@@ -140,27 +140,20 @@ nav button:hover {
 .btn:hover {
   letter-spacing: 5px;
 }
-.quarter-circle {
+.border-blue0 {
   position: fixed;
   background: var(--primary-color);
   bottom: 0;
   right: 0;
-  width: 600px;
-  height: 600px;
-  border-top-left-radius: 100%;
+  width: 5%;
+  height: 100%;
 }
-.quarter-circle-img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-.quarter-circle-img img {
-  width: 90%;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.quarter-circle-img img:hover {
-  transform: scale(0.75);
+.border-blue1 {
+  position: fixed;
+  background: var(--primary-color);
+  bottom: 0px;
+  width: 5%;
+  height: 100%;
 }
 /* ---------------------------------------------------------------------- ANIMATIONS ---------------------------------------------------------------------------------------------/*
 
