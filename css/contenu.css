@@ -155,6 +155,21 @@ nav button:hover {
   width: 5%;
   height: 100%;
 }
+article{
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p{
+  padding: 2%;
+  background-color: aqua;
+  border-radius: 15px;
+}
+img {
+  height: 275px;
+  border-radius: 15px;
+}
 /* ---------------------------------------------------------------------- ANIMATIONS ---------------------------------------------------------------------------------------------/*
 
 /* Rebond des points (chargement) */
