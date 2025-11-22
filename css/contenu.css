@@ -155,20 +155,77 @@ nav button:hover {
   width: 5%;
   height: 100%;
 }
-article{
-  margin: 2%;
+h1{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+article{
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 1fr,2fr,1fr,2fr,1fr;
+  grid-template-rows: 1fr,2fr,1fr,2fr,1fr,2fr,1fr,2fr,1fr,2fr,1fr,2fr,1fr;
 }
 p{
   padding: 2%;
   background-color: aqua;
   border-radius: 15px;
 }
+#at1 {
+  grid-column: 2;
+  grid-row: 2;
+}
+#at2 {
+  grid-column: 2;
+  grid-row: 4;
+}
+#at3 {
+  grid-column: 2;
+  grid-row: 6;
+}
+#at4 {
+  grid-column: 2;
+  grid-row: 8;
+}
+#at5 {
+  grid-column: 2;
+  grid-row: 10;
+}
+#at6 {
+  grid-column: 2;
+  grid-row: 12;
+}
 img {
   height: 275px;
   border-radius: 15px;
+}
+#img1 {
+  grid-column: 4;
+  grid-row: 2;
+}
+#img2 {
+  grid-column: 4;
+  grid-row: 4;
+}
+#img3 {
+  grid-column: 4;
+  grid-row: 6;
+}
+#img4 {
+  grid-column: 4;
+  grid-row: 8;
+}
+#img5 {
+  grid-column: 4;
+  grid-row: 10;
+}
+#img6 {
+  grid-column: 4;
+  grid-row: 12;
+}
+a {
+  grid-column: 3;
+  grid-row: 13;
 }
 /* ---------------------------------------------------------------------- ANIMATIONS ---------------------------------------------------------------------------------------------/*
 
