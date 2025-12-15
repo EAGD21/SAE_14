@@ -140,21 +140,7 @@ nav button:hover {
 .btn:hover {
   letter-spacing: 5px;
 }
-.border-blue0 {
-  position: fixed;
-  background: var(--primary-color);
-  bottom: 0;
-  right: 0;
-  width: 5%;
-  height: 100%;
-}
-.border-blue1 {
-  position: fixed;
-  background: var(--primary-color);
-  bottom: 0px;
-  width: 5%;
-  height: 100%;
-}
+
 h1{
   display: flex;
   flex-direction: row;
@@ -169,6 +155,7 @@ article{
 p{
   padding: 2%;
   background-color: aqua;
+  height: 250px;
   border-radius: 15px;
 }
 #at1 {
@@ -196,7 +183,7 @@ p{
   grid-row: 12;
 }
 img {
-  height: 275px;
+  height: 250px;
   border-radius: 15px;
 }
 #img1 {
@@ -226,6 +213,21 @@ img {
 a {
   grid-column: 3;
   grid-row: 13;
+}
+.border-blue0 {
+  position: fixed;
+  background: var(--primary-color);
+  bottom: 0;
+  right: 0;
+  width: 5%;
+  height: 100%;
+}
+.border-blue1 {
+  position: fixed;
+  background: var(--primary-color);
+  bottom: 0px;
+  width: 5%;
+  height: 100%;
 }
 /* ---------------------------------------------------------------------- ANIMATIONS ---------------------------------------------------------------------------------------------/*
 

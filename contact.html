@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Avion tape dans le L et explose</title>
-<style>
-  body {
-    background: #e9f2ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-  }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/contenu.css">
+  <title>SAE14</title>
+</head>
 
-  .scene {
-    position: relative;
-    width: 300px;
-    height: 300px;
-  }
+<body>
+  <div id="loader">
+    <h1>Chargement <span>.</span><span>.</span><span>.</span></h1>
+  </div>
+  <header>
+    <div class="logo"><span id="span1">Les</span> <span id="span2">Avions</span></div>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <main class="text">
+    <article>
+      <p id="at1">Je m'appelle Esteban-Angel Gonzalez-Durand.</p>
+      <img id="img1"
+        src="https://upload.wikimedia.org/wikipedia/commons/8/86/Logo_Universit%C3%A9_de_Caen_Normandie_2018.png"
+        alt="logo de l'Université de Caen">
+    </article>
+    <article>
+      <p id="at2">Je suis en première année de BUT Réseaux et Télécommunications à l'université de Caen.</p>
+      <img id="img2"
+        src="https://yt3.googleusercontent.com/ytc/AIdro_kz5r4aRdYyPyVBtzPRr6igDF_PIpoMfIsLtgSa_TbFZQ=s900-c-k-c0x00ffffff-no-rj"
+        alt="logo de l'IUT de Caen">
+    </article>
+  </main>
+  <div class="border-blue0">
+  </div>
+  <div class="border-blue1">
+  </div>
+</body>
 
-  /* Le L majuscule */
-  .lettreL {
-    position: absolute;
-    left: 100px;
-    top: 50px;
-    width: 20px;
-    height: 200px;
-    background: #333;
-  }
-
-  .lettreL::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 120px;
-    height: 20px;
-    background: #333;
-  }
-
-  /* L'av*
+</html>
