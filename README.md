@@ -10,4 +10,4 @@ Le thème de mon projet se porte sur les avions.
 Pour le CSS, j'ai utilisé grid et flex.  
 
 # le lien vers l'hébergement sur Pages:
-https://www.avion.fr/
+https://eagd21.github.io/SAE14/
