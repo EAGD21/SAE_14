@@ -119,6 +119,45 @@ nav button:hover {
   width: 5%;
   height: 100%;
 }
+article {
+  margin-top: 2%;
+  display:flex;
+}
+
+img {
+  height: 300px;
+  border-radius: 15px;
+}
+
+#arc2 {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#arc3 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#arc4 {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#arc5 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#arc6 {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#arc7 {
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 #arc1 {
   margin-top: 5%;
@@ -127,82 +166,6 @@ nav button:hover {
   justify-content: space-around;
 }
 
-#img1 {
-  height: 300px;
-  border-radius: 15px;
-}
-
-#arc2 {
-  margin-top: 2%;
-  display:flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-}
-
-#img2 {
-  height: 300px;
-  border-radius: 15px;
-}
-
-#arc3 {
-  margin-top: 2%;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#img3 {
-  height: 300px;
-  border-radius: 15px;
-}
-
-#arc4 {
-  margin-top: 2%;
-  display:flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-}
-
-#img4 {
-  height: 300px;
-  border-radius: 15px;
-}
-
-#arc5 {
-  margin-top: 2%;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#img5 {
-  height: 300px;
-  border-radius: 15px;
-}
-
-#arc6 {
-  margin-top: 2%;
-  display:flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-}
-
-#img6 {
-  height: 300px;
-  border-radius: 15px;
-}
-
-#arc7 {
-  margin-top: 2%;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#img7 {
-  height: 300px;
-  border-radius: 15px;
-}
 /* ---------------------------------------------------------------------- ANIMATIONS ---------------------------------------------------------------------------------------------/*
 
 /* Rebond des points (chargement) */
@@ -299,5 +262,32 @@ nav button:hover {
 
   .btn {
     margin: auto;
+  }
+  img {
+    height: 175px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .btn {
+    width: 150px;
+  }
+  img {
+    height: 135px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .btn {
+    width: 75px;
+  }
+  img {
+    height: 100px;
+  }
+  #span1 {
+    font-size: 50px;
+  }
+  #span2 {
+    font-size: 50px;
   }
 }
