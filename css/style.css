@@ -89,8 +89,8 @@ nav button:hover {
   margin: 20px 0;
 }
 .btn {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: #ff000060;
+  color: #000000;
   padding: 30px 45px;
   display: flex;
   margin-top: 45px;
@@ -258,6 +258,7 @@ img {
   .text p {
     width: 90%;
     max-width: unset;
+    margin: 20px 30px;
   }
 
   .btn {

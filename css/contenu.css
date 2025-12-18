@@ -129,7 +129,7 @@ nav button:hover {
 .btn {
   background: var(--primary-color);
   color: var(--secondary-color);
-  padding: 15px 30px;
+  padding: 15px 5px;
   display: flex;
   margin-top: 30px;
   border: none;
@@ -154,7 +154,7 @@ article{
 }
 p{
   padding: 2%;
-  background-color: aqua;
+  background-color: #ff000060;
   height: 250px;
   border-radius: 15px;
 }
@@ -321,9 +321,50 @@ a {
   .text p {
     width: 90%;
     max-width: unset;
+    margin-left: 30px;
   }
 
   .btn {
     margin: auto;
+  }
+  img {
+    margin-right: 30px;
+    height: 150px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .btn {
+    width: 150px;
+  }
+  img {
+    height: 100px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .text p {
+    margin: 20px;
+  }
+  .btn {
+    width: 75px;
+  }
+  img {
+    height: 100px;
+  }
+  #span1 {
+    font-size: 50px;
+  }
+  #span2 {
+    font-size: 50px;
+  }
+  a {
+    margin: 30px;
   }
 }
